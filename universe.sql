@@ -203,23 +203,23 @@ INSERT INTO public.galaxy VALUES (6, 'Sunflower galaxy', 'there are a lot of sun
 INSERT INTO public.moon VALUES ('THE moon', 1, true, 1, 'white');
 INSERT INTO public.moon VALUES ('The blue moon', 2, NULL, 3, 'blue');
 INSERT INTO public.moon VALUES ('The green moon', 3, false, 6, 'green');
-INSERT INTO public.moon VALUES ('Moon moon', 4, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('Moon moon moon', 5, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('Mooooooooooon', 6, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('Muuuhhhhhnn', 7, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('The red moon', 8, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('The grey moon', 9, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('The yellow moon', 10, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('The orange moon', 11, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('The pink moon', 12, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('The violet moon', 13, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('The turquoise moon', 14, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('The brown moon', 15, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('The black moon', 16, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('The khaki moon', 17, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('The bordeau moon', 18, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('The ultramarine moon', 19, NULL, NULL, NULL);
-INSERT INTO public.moon VALUES ('The colorless moon', 20, NULL, NULL, NULL);
+INSERT INTO public.moon VALUES ('Moon moon', 4, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('Moon moon moon', 5, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('Mooooooooooon', 6, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('Muuuhhhhhnn', 7, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('The grey moon', 9, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('The yellow moon', 10, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('The orange moon', 11, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('The pink moon', 12, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('The violet moon', 13, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('The turquoise moon', 14, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('The brown moon', 15, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('The black moon', 16, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('The khaki moon', 17, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('The bordeau moon', 18, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('The ultramarine moon', 19, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('The colorless moon', 20, NULL, 5, NULL);
+INSERT INTO public.moon VALUES ('The red moon', 8, NULL, 5, NULL);
 
 
 --
@@ -227,17 +227,17 @@ INSERT INTO public.moon VALUES ('The colorless moon', 20, NULL, NULL, NULL);
 --
 
 INSERT INTO public.planet VALUES ('Earth', 1, true, 1, 1);
-INSERT INTO public.planet VALUES ('Venus', 2, false, 0, NULL);
-INSERT INTO public.planet VALUES ('Neptun', 3, false, NULL, NULL);
-INSERT INTO public.planet VALUES ('Mars', 4, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES ('Jupiter', 5, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES ('Mordor', 6, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES ('Kreta', 7, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES ('Prometheus', 8, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES ('Ganymed', 9, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES ('Rohan', 19, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES ('Manhatten', 11, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES ('Metropolis', 12, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES ('Venus', 2, false, 0, 5);
+INSERT INTO public.planet VALUES ('Neptun', 3, false, NULL, 5);
+INSERT INTO public.planet VALUES ('Mars', 4, NULL, NULL, 5);
+INSERT INTO public.planet VALUES ('Jupiter', 5, NULL, NULL, 5);
+INSERT INTO public.planet VALUES ('Mordor', 6, NULL, NULL, 5);
+INSERT INTO public.planet VALUES ('Kreta', 7, NULL, NULL, 5);
+INSERT INTO public.planet VALUES ('Prometheus', 8, NULL, NULL, 5);
+INSERT INTO public.planet VALUES ('Ganymed', 9, NULL, NULL, 5);
+INSERT INTO public.planet VALUES ('Rohan', 19, NULL, NULL, 5);
+INSERT INTO public.planet VALUES ('Manhatten', 11, NULL, NULL, 5);
+INSERT INTO public.planet VALUES ('Metropolis', 12, NULL, NULL, 5);
 
 
 --
